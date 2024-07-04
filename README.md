@@ -13,31 +13,49 @@ Problem: Guessing Game using PyQt5
 
 Description:
 
-Create a graphical user interface (GUI) application using PyQt5 that implements a number guessing game. 
-The game should generate a random number between 1 and 100, and challenge the user to guess it. 
-The application should provide feedback to the user based on their guesses, indicating whether their guess is too high or too low. 
+Create a graphical user interface (GUI) application using PyQt5 
+that implements a number guessing game. 
+
+The game should generate a random number between 1 and 100, and 
+challenge the user to guess it. 
+
+The application should provide feedback to the user based on their guesses, 
+indicating whether their guess is too high or too low. 
 The game should continue until the user correctly guesses the number, at which point it should display the number of attempts it took to win the game.
 
 Requirements:
 
-    The application should generate a random number between 1 and 100.
-    The user should be able to input their guess using a text field.
-    The application should provide feedback to the user based on their guess, indicating whether it is too high or too low.
-    The game should continue until the user correctly guesses the number.
-    The application should display the number of attempts it took to win the game when the user correctly guesses the number.
-    The application should have a GUI with a label, text field, button, and result label.
+1. The application should generate a random number between 1 and 100.
+
+2.The user should be able to input their guess using a text field.
+
+3.The application should provide feedback to the user based on their guess, indicating whether it is too high or too low.
+  
+  4.The game should continue until the user correctly guesses the number.
+ 
+  5.The application should display the number of attempts it took to win the game when the user correctly guesses the number.
+
+ 6..The application should have a GUI with a label, text field, button, and result label.
+
 
 Constraints:
 
-    The application should use PyQt5 as the GUI framework.
-    The random number should be generated using the random module.
-    The application should handle invalid user input (e.g., non-numeric input).
+   1. The application should use PyQt5 as the GUI framework.
+    
+  2.The random number should be generated using the random module.
+    
+   
+3.The application should handle invalid user input (e.g., non-numeric input).
 
 Goals:
 
-    Create a functional GUI application using PyQt5.
-    Implement a number guessing game with feedback to the user.
-    Provide a user-friendly interface for the game.
+   1.  Create a functional GUI application using PyQt5.
+      
+
+ 2.Implement a number guessing game with feedback to the user.
+
+    
+   3. Provide a user-friendly interface for the game.
 
 the concepts learned from this problem:
 
